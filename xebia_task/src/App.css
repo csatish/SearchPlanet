@@ -1,0 +1,69 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+
+.formContent {
+  width: 40%;
+  min-width: 290px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.inputText {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+loginButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.searchField {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.listCell {
+  border: solid 0.5px #CCC;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: aquamarine;
+
+}
+
+.listDesc {
+  display: flex;
+  font-size: 11px;
+  color: #999;
+  margin-left: 10px;
+}
+
+.listHeader {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  font-size: 14px;
+  height: 100%;
+
+}
+
+#searchFooter {
+  height: 40px;
+  background-color: aqua;
+}
